@@ -8,6 +8,9 @@ while True:
     price = input("Enter a price -> ")
     products.append([name, price])
 
-print("The name of the first product -> ", products[0][0])
+print(products)
+
+for product in products:
+	print(product[0], 'price is ->', product[1])
 
 
