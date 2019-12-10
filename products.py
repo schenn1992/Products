@@ -13,7 +13,7 @@ print(products)
 for product in products:
 	print(product[0], 'price is ->', product[1])
 
-with open('products.csv', 'w',encoding = 'utf-8') as f:
+with open('products.csv', 'w', encoding = 'utf-8') as f:
 	f.write('product,price\n') 
 	for product in products:
 		f.write(product[0] + ',' + product[1] + '\n')
